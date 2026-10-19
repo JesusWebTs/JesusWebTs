@@ -1,3 +1,8 @@
+<p align="right">
+  <a href="https://github.com/JesusWebTs"><img src="https://img.shields.io/badge/EN-English-38BDF8?style=for-the-badge" /></a>
+  <a href="https://github.com/JesusWebTs/JesusWebTs/blob/main/README.es.md"><img src="https://img.shields.io/badge/ES-Espa%C3%B1ol-30363D?style=for-the-badge" /></a>
+</p>
+
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Richard%20Mart%C3%ADnez&fontSize=56&fontColor=ffffff&fontAlignY=38&desc=Senior%20Full%20Stack%20Software%20Engineer&descAlignY=58&descSize=20" width="100%" />
@@ -14,7 +19,6 @@
 
 🌐 **[jesusweb.vercel.app](https://jesusweb.vercel.app/)** · 📧 **[jesus.jslink@gmail.com](mailto:jesus.jslink@gmail.com)**
 
-🇺🇸 **English** · 🇪🇸 [Español](README.es.md)
 
 </div>
 
