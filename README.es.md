@@ -131,7 +131,7 @@ Creé la **UI v2 de La Wawa**: una librería de componentes abstractos con temas
 ## 📈 Actividad
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=JesusWebTs&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" />
+  <img src="https://streak-stats.demolab.com?user=JesusWebTs&mode=weekly&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" />
 </p>
 
 <p align="center">

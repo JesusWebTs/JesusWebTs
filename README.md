@@ -131,7 +131,7 @@ I created **La Wawa's UI v2**: a library of abstract components with theming, sk
 ## 📈 Activity
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=JesusWebTs&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" />
+  <img src="https://streak-stats.demolab.com?user=JesusWebTs&mode=weekly&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" />
 </p>
 
 <p align="center">
