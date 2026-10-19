@@ -67,6 +67,33 @@ Creé la **UI v2 de La Wawa**: una librería de componentes abstractos con temas
   <img src="https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white" />
 </p>
 
+## 🤝 Más allá del código
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🌿 Versionado y flujo con GitHub
+- Flujo de ramas `develop` → `staging` → `main` con PRs por feature y PRs hermanos para hotfixes
+- Code review en cada PR (humano + CodeRabbit) y resolución de conflictos entre equipos
+- Versionado semántico de paquetes npm (changesets / semantic-release) y changelogs por release
+- Commits atribuibles: cada cambio dice quién lo hizo, persona o agente
+- CI con lint y type-check como condición para mergear
+
+</td>
+<td width="50%" valign="top">
+
+### 🧭 Gestión y negocio
+- Levantamiento y validación de requerimientos directamente con clientes
+- Estimación de presupuestos y tiempos de entrega
+- Liderazgo de equipo y acompañamiento a otros desarrolladores
+- Interlocución con C-level y comunicación del estado del proyecto
+- Modelado de bases de datos, aportes en UI/UX y pruebas en campo con usuarios reales
+
+</td>
+</tr>
+</table>
+
 ## 🚀 Productos que he construido
 
 > El código es privado (son productos comerciales), pero están en producción:
@@ -86,6 +113,7 @@ Creé la **UI v2 de La Wawa**: una librería de componentes abstractos con temas
 | Proyecto | Qué es | Stack |
 | --- | --- | --- |
 | 🧠 **AIDevCell** | Plataforma multi-agente organizada por departamentos: convierte un requerimiento en trabajo ejecutable, analiza un repositorio y produce hallazgos y un plan de mantenimiento, y ejecuta tareas de código en un entorno aislado, generando parches que ningún proceso automático aplica sin revisión | NestJS · React · Vite · Tailwind · Socket.IO · Claude (Anthropic SDK) · monorepo pnpm · contratos JSON Schema · Vitest |
+| 📝 **Sistema de agentes en Markdown** | Un equipo de agentes sobre **Claude Code** construido solo con archivos `.md` (skills, routers de contexto y `CLAUDE.md`), sin código de orquestación. Un gestor trocea el requerimiento, un agente escribe y otro revisa. Toma tareas de ClickUp, refina, deja relevos entre sesiones, sincroniza ramas, corre los gates de lint y TS, abre PRs, atiende a CodeRabbit, entrega en ClickUp y reporta en Slack | Claude Code · Skills · Markdown · GitHub CLI · ClickUp · Slack |
 | 🔎 **AiBusinessExplorer** | Embudo de prospección: barre negocios por zona, detecta los que no tienen web o la tienen caída o insegura, los enriquece con redes e imágenes, los califica con IA solo cuando hace falta y entrega el pedido a **AIDevCell**, que construye el sitio | NestJS · MongoDB · Claude · React · Vite · Tailwind · Overture Maps |
 
 ### 🎮 Juegos
