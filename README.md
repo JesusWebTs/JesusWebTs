@@ -55,7 +55,7 @@ Creé la **UI v2 de La Wawa**: una librería de componentes abstractos con temas
 ## 🛠️ Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,redux,nodejs,nestjs,express,graphql,mongodb,postgres,firebase,aws,docker,kubernetes,jest,html,css,git,vercel,tailwind,vite,python,opencv,unity,cs,blender&perline=11" />
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,redux,nodejs,nestjs,express,graphql,mongodb,postgres,firebase,aws,docker,kubernetes,jest,html,css,git,vercel,redis,prisma,materialui,cypress,tailwind,vite,python,opencv,unity,cs,blender&perline=11" />
 </p>
 
 <p align="center">
@@ -73,13 +73,20 @@ Creé la **UI v2 de La Wawa**: una librería de componentes abstractos con temas
 
 | Producto | Qué es | Stack |
 | --- | --- | --- |
-| 🚗 **[La Wawa](https://cms.enwawa.com/es)** | Transporte corporativo: CMS, portal [B2B](https://b2b.enwawa.com/es), [Driver App](https://play.google.com/store/apps/details?id=com.la_wawa.wawadriverapp) y [Rider App](https://play.google.com/store/apps/details?id=com.wawainc.lawawa). Dos UI kits como paquetes npm | React · NestJS · GraphQL · MongoDB · RN |
-| 🏠 **[PartaRentals](https://www.partarentals.com/es)** | Marketplace de alquiler mensual multi-rol y multipaís, pagos recurrentes y comisiones | React · Redux · NestJS · MongoDB |
-| ✍️ **Rewrite AI** | Extensión de Chrome con IA que reescribe texto, con suscripciones | React · Zustand · NestJS · PostgreSQL · Stripe |
+| 🚗 **[La Wawa](https://cms.enwawa.com/es)** | Transporte corporativo: CMS de flota, rutas e incidencias, portal [B2B](https://b2b.enwawa.com/es), portal de partners, [Driver App](https://play.google.com/store/apps/details?id=com.la_wawa.wawadriverapp) con validación por QR y [Rider App](https://play.google.com/store/apps/details?id=com.wawainc.lawawa). Tiempo real, geolocalización en segundo plano y dos UI kits como paquetes npm | **Back:** NestJS · GraphQL (Apollo) · Prisma · MongoDB · Socket.IO · Redis · Firebase · Stripe · Twilio<br>**Web:** Next.js · Apollo Client · next-intl · Ant Design · Tailwind · Radix · Storybook · Cypress<br>**Mobile:** Expo · React Native · Expo Router · Maps · NativeWind · TanStack Query |
+| 🏠 **[PartaRentals](https://www.partarentals.com/es)** | Marketplace de alquiler mensual multi-rol (propietarios, inquilinos, agentes) y multipaís, con servidores y bases separados por país, pagos recurrentes, comisiones y [backoffice](https://backoffice.partarentals.com/login) | **Back:** NestJS · GraphQL (Apollo) · Mongoose · MongoDB · S3 · Google OAuth · Puppeteer<br>**Web:** Next.js · Tailwind · Radix · Redux Toolkit · next-intl · Leaflet<br>**Backoffice:** React · Redux Toolkit · Bootstrap · ECharts · FullCalendar |
+| ✍️ **Rewrite AI** | Extensión de Chrome con IA que reescribe el texto seleccionado en distintos estilos: traducción, humanización y planes por suscripción. Backend propio y portal de administración | **IA:** Claude · OpenRouter · Groq · OpenAI<br>**Back:** NestJS · TypeORM · PostgreSQL · BullMQ · Redis · Socket.IO · Stripe · S3<br>**Front:** React · MUI · Zustand · Chrome MV3 · Next.js · HeroUI · Tailwind<br>**Infra:** Docker |
 | 🎹 **DaCapo** | Aprende piano desde videos tipo Synthesia: un **pipeline de visión por computadora** (detección de manos y teclas) transcribe el video a notas, con **98,85 % de acierto** en Für Elise. El motor de práctica dibuja la cascada, la hace sonar, la pasa a pentagrama y **verifica por MIDI** lo que tocas. Incluye API, worker, panel de auditoría del pipeline, SDK compartido y extensión de Chrome para la ingesta de videos | **Back:** NestJS · TypeORM · PostgreSQL · Socket.IO · S3 · JWT<br>**Visión:** Python · OpenCV · MediaPipe · NumPy<br>**Front:** React · Vite · Tailwind · Zustand · Tone.js MIDI<br>**Infra:** Docker · Chrome MV3 |
-| 🎟️ **[Comercio B2B](https://comerciob2b.onrender.com/)** | Fidelización con puntos, sellos y rifas, integrada con Google y Apple Wallet | React · Node · PostgreSQL |
-| 🅿️ **[Estacionate](https://estacionate.io/)** | Valet para comercios y [Estacionate+](https://play.google.com/store/apps/details?id=com.estacionateplus.records), pago por tiempo de estacionamiento | React · Node · PostgreSQL · RN |
+| 🎟️ **[Comercio B2B](https://comerciob2b.onrender.com/)** | Fidelización white-label con puntos, sellos y rifas, y tarjetas en **Google y Apple Wallet** que se actualizan solas. Tres apps: comercio, cliente con lector QR y admin interno | **Back:** NestJS · TypeORM · PostgreSQL · BullMQ · Redis · Socket.IO · S3 · Twilio · firma de pases Wallet<br>**Front:** React · Vite · Tailwind · Radix/shadcn · MUI · Zustand · Recharts |
+| 🅿️ **[Estacionate](https://estacionate.io/)** | Valet gratuito para comercios y [Estacionate+](https://play.google.com/store/apps/details?id=com.estacionateplus.records), parquímetros con pago por tiempo: app de usuario, app del personal de campo y panel administrativo con mapas | **Back:** NestJS · TypeORM · PostgreSQL · BullMQ · Redis · Socket.IO · S3 · Twilio · Docker<br>**Web:** Next.js · HeroUI · React · Vite · MUI · TanStack Query · Mapbox<br>**Mobile:** Expo · React Native · Redux Toolkit · Vision Camera · OneSignal |
 | 📊 **RG Asesores** · **StarStats** | Plataformas a medida para clientes | React · Node |
+
+### 🤖 Productos propios con IA
+
+| Proyecto | Qué es | Stack |
+| --- | --- | --- |
+| 🧠 **AIDevCell** | Plataforma multi-agente organizada por departamentos: convierte un requerimiento en trabajo ejecutable, analiza un repositorio y produce hallazgos y un plan de mantenimiento, y ejecuta tareas de código en un entorno aislado, generando parches que ningún proceso automático aplica sin revisión | NestJS · React · Vite · Tailwind · Socket.IO · Claude (Anthropic SDK) · monorepo pnpm · contratos JSON Schema · Vitest |
+| 🔎 **AiBusinessExplorer** | Embudo de prospección: barre negocios por zona, detecta los que no tienen web o la tienen caída o insegura, los enriquece con redes e imágenes, los califica con IA solo cuando hace falta y entrega el pedido a **AIDevCell**, que construye el sitio | NestJS · MongoDB · Claude · React · Vite · Tailwind · Overture Maps |
 
 ### 🎮 Juegos
 
