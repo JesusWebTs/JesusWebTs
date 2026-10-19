@@ -38,7 +38,7 @@ Un contrato de tipos que se **genera leyendo el código de la API** (AST de los 
 <td width="33%" valign="top">
 
 ### 🎨 UI v2 / design system
-Creé la **UI v2 de La Wawa**: una librería de componentes abstractos con temas, skeletons y error boundaries por defecto, compartida por CMS, B2B y el portal de partners. Llevé ese mismo modelo a **DaCapo** y **Rewrite AI**.
+Creé la **UI v2 de La Wawa**: una librería de componentes abstractos con temas, skeletons y error boundaries por defecto, compartida por CMS, B2B y el portal de partners. Lo que aprendí diseñándola me sirvió para construir desde cero las interfaces de **DaCapo** y **Rewrite AI**.
 
 </td>
 <td width="33%" valign="top">
