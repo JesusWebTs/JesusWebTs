@@ -53,7 +53,7 @@ Creé la **UI v2 de La Wawa**: una librería de componentes abstractos con temas
 ## 🛠️ Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,redux,nodejs,nestjs,express,graphql,mongodb,postgres,firebase,aws,docker,kubernetes,jest,html,css,git,vercel,unity,cs,blender&perline=10" />
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,redux,nodejs,nestjs,express,graphql,mongodb,postgres,firebase,aws,docker,kubernetes,jest,html,css,git,vercel,tailwind,vite,python,opencv,unity,cs,blender&perline=11" />
 </p>
 
 <p align="center">
@@ -74,7 +74,7 @@ Creé la **UI v2 de La Wawa**: una librería de componentes abstractos con temas
 | 🚗 **[La Wawa](https://cms.enwawa.com/es)** | Transporte corporativo: CMS, portal [B2B](https://b2b.enwawa.com/es), [Driver App](https://play.google.com/store/apps/details?id=com.la_wawa.wawadriverapp) y [Rider App](https://play.google.com/store/apps/details?id=com.wawainc.lawawa). Dos UI kits como paquetes npm | React · NestJS · GraphQL · MongoDB · RN |
 | 🏠 **[PartaRentals](https://www.partarentals.com/es)** | Marketplace de alquiler mensual multi-rol y multipaís, pagos recurrentes y comisiones | React · Redux · NestJS · MongoDB |
 | ✍️ **Rewrite AI** | Extensión de Chrome con IA que reescribe texto, con suscripciones | React · Zustand · NestJS · PostgreSQL · Stripe |
-| 🎹 **DaCapo** | App para practicar música: lee la partitura, la dibuja, la hace sonar y verifica por MIDI lo que tocas. Incluye backend, panel y extensión de Chrome para cargar videos | TypeScript · React · Vite · Tailwind · MIDI |
+| 🎹 **DaCapo** | Aprende piano desde videos tipo Synthesia: un **pipeline de visión por computadora** (detección de manos y teclas) transcribe el video a notas, con **98,85 % de acierto** en Für Elise. El motor de práctica dibuja la cascada, la hace sonar, la pasa a pentagrama y **verifica por MIDI** lo que tocas. Incluye API, worker, panel de auditoría del pipeline, SDK compartido y extensión de Chrome para la ingesta de videos | **Back:** NestJS · TypeORM · PostgreSQL · Socket.IO · S3 · JWT<br>**Visión:** Python · OpenCV · MediaPipe · NumPy<br>**Front:** React · Vite · Tailwind · Zustand · Tone.js MIDI<br>**Infra:** Docker · Chrome MV3 |
 | 🎟️ **[Comercio B2B](https://comerciob2b.onrender.com/)** | Fidelización con puntos, sellos y rifas, integrada con Google y Apple Wallet | React · Node · PostgreSQL |
 | 🅿️ **[Estacionate](https://estacionate.io/)** | Valet para comercios y [Estacionate+](https://play.google.com/store/apps/details?id=com.estacionateplus.records), pago por tiempo de estacionamiento | React · Node · PostgreSQL · RN |
 | 📊 **RG Asesores** · **StarStats** | Plataformas a medida para clientes | React · Node |
