@@ -135,10 +135,6 @@ I created **La Wawa's UI v2**: a library of abstract components with theming, sk
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=JesusWebTs&theme=tokyo-night&hide_border=true&area=true" width="100%" />
-</p>
-
-<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JesusWebTs/JesusWebTs/output/github-snake-dark.svg" />
     <img src="https://raw.githubusercontent.com/JesusWebTs/JesusWebTs/output/github-snake.svg" />
