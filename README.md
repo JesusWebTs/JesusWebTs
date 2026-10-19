@@ -53,7 +53,7 @@ Creé la **UI v2 de La Wawa**: una librería de componentes abstractos con temas
 ## 🛠️ Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,redux,nodejs,nestjs,express,graphql,mongodb,postgres,firebase,aws,docker,kubernetes,jest,html,css,git,vercel&perline=10" />
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,redux,nodejs,nestjs,express,graphql,mongodb,postgres,firebase,aws,docker,kubernetes,jest,html,css,git,vercel,unity,cs,blender&perline=10" />
 </p>
 
 <p align="center">
@@ -78,6 +78,12 @@ Creé la **UI v2 de La Wawa**: una librería de componentes abstractos con temas
 | 🎟️ **[Comercio B2B](https://comerciob2b.onrender.com/)** | Fidelización con puntos, sellos y rifas, integrada con Google y Apple Wallet | React · Node · PostgreSQL |
 | 🅿️ **[Estacionate](https://estacionate.io/)** | Valet para comercios y [Estacionate+](https://play.google.com/store/apps/details?id=com.estacionateplus.records), pago por tiempo de estacionamiento | React · Node · PostgreSQL · RN |
 | 📊 **RG Asesores** · **StarStats** | Plataformas a medida para clientes | React · Node |
+
+### 🎮 Juegos
+
+| Juego | Qué es | Stack |
+| --- | --- | --- |
+| 🎨 **Splash Tag: The Paint Terror** | Party game multijugador asimétrico: un cazador casi ciego persigue a 4 corredores que solo se ven cuando alguien los mancha de pintura, y los corredores se delatan entre ellos. Partidas de 90 s, modo local y online con salas de Steam, bots de 4 niveles y mapas generados | Unity 6 · C# · URP · Mirror · Steamworks · Blender |
 
 ## 📈 Actividad
 
