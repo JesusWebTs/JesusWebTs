@@ -25,6 +25,31 @@ Fuera del código: modelo bases de datos, levanto requerimientos con clientes, e
 - 🧭 **Kromatics Design** — Líder de equipo (2023 – 2025): retos técnicos, interlocución con C-level, kit UI propio
 - 🤖 Trabajo con **agentes de IA** (Claude Code, skills y orquestación) como parte del flujo de desarrollo
 
+## 🏗️ Arquitectura que diseñé
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### ⚙️ Generador de interfaces
+Un contrato de tipos que se **genera leyendo el código de la API** (AST de los resolvers) y se distribuye a **3 webapps y 2 apps móviles** a la vez. El front nunca escribe tipos de la API a mano, y un cambio en el back llega tipado a todos los proyectos con un comando.
+
+</td>
+<td width="33%" valign="top">
+
+### 🎨 UI v2 / design system
+Creé la **UI v2 de La Wawa**: una librería de componentes abstractos con temas, skeletons y error boundaries por defecto, compartida por CMS, B2B y el portal de partners. Llevé ese mismo modelo a **DaCapo** y **Rewrite AI**.
+
+</td>
+<td width="33%" valign="top">
+
+### 🤖 Arquitectura de agentes de IA
+**AIDevCell**: un modelo de trabajo donde un gestor divide el requerimiento, un agente escribe, otro distinto revisa, se corren gates de lint/TS y cada commit queda atribuido a su agente. Skills para relevo entre sesiones, PRs, ClickUp y Slack.
+
+</td>
+</tr>
+</table>
+
 ## 🛠️ Stack
 
 <p align="center">
@@ -49,6 +74,7 @@ Fuera del código: modelo bases de datos, levanto requerimientos con clientes, e
 | 🚗 **[La Wawa](https://cms.enwawa.com/es)** | Transporte corporativo: CMS, portal [B2B](https://b2b.enwawa.com/es), [Driver App](https://play.google.com/store/apps/details?id=com.la_wawa.wawadriverapp) y [Rider App](https://play.google.com/store/apps/details?id=com.wawainc.lawawa). Dos UI kits como paquetes npm | React · NestJS · GraphQL · MongoDB · RN |
 | 🏠 **[PartaRentals](https://www.partarentals.com/es)** | Marketplace de alquiler mensual multi-rol y multipaís, pagos recurrentes y comisiones | React · Redux · NestJS · MongoDB |
 | ✍️ **Rewrite AI** | Extensión de Chrome con IA que reescribe texto, con suscripciones | React · Zustand · NestJS · PostgreSQL · Stripe |
+| 🎹 **DaCapo** | App para practicar música: lee la partitura, la dibuja, la hace sonar y verifica por MIDI lo que tocas. Incluye backend, panel y extensión de Chrome para cargar videos | TypeScript · React · Vite · Tailwind · MIDI |
 | 🎟️ **[Comercio B2B](https://comerciob2b.onrender.com/)** | Fidelización con puntos, sellos y rifas, integrada con Google y Apple Wallet | React · Node · PostgreSQL |
 | 🅿️ **[Estacionate](https://estacionate.io/)** | Valet para comercios y [Estacionate+](https://play.google.com/store/apps/details?id=com.estacionateplus.records), pago por tiempo de estacionamiento | React · Node · PostgreSQL · RN |
 | 📊 **RG Asesores** · **StarStats** | Plataformas a medida para clientes | React · Node |
