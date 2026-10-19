@@ -8,9 +8,11 @@
 
 <p>
   <a href="https://www.linkedin.com/in/jesusweb/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://jesusweb.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-  <a href="mailto:jesus.jslink@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://jesusweb.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-jesusweb.vercel.app-111827?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="mailto:jesus.jslink@gmail.com"><img src="https://img.shields.io/badge/Email-jesus.jslink%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
+
+🌐 **[jesusweb.vercel.app](https://jesusweb.vercel.app/)** · 📧 **[jesus.jslink@gmail.com](mailto:jesus.jslink@gmail.com)**
 
 </div>
 
